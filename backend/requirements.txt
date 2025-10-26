@@ -1,19 +1,44 @@
-fastapi
+# FastAPI and server
+fastapi==0.116.1
 uvicorn[standard]
-pydantic
-openai
+python-multipart
 fastapi-cors
-pypdf
-langchain
-tiktoken
-chromadb
-python-dotenv
-slowapi
+
+# Validation and settings
+pydantic>=2.0.0
 pydantic-settings
+
+# Environment
+python-dotenv
+
+# API integrations
+openai
+google-generativeai
+
+# Vector database
+pinecone-client==3.2.2
+
+# Rate limiting
+slowapi
+
+# Logging
 structlog
 prometheus-client
+
+# System monitoring
+psutil
+
+# Testing (for development)
 pytest
 pytest-asyncio
 httpx
-pinecone-client==3.2.2
-google-generativeai
+
+# PDF processing (if needed in future)
+pypdf
+tiktoken
+
+# Langchain (if needed)
+langchain
+
+# Vector DB (backup if needed)
+chromadb
