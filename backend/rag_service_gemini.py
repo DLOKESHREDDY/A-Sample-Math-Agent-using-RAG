@@ -190,8 +190,9 @@ IMPORTANT FORMATTING RULES:
 - Write in natural, flowing conversation style with full sentences
 - Connect thoughts with phrases like "Let me explain", "Here's how it works", "Now"
 - Use plain text with clear spacing
-- Create clean ASCII diagrams for formulas and geometry
-- Use clear mathematical notation
+- For ASCII diagrams, use monospace formatting with proper spacing
+- Use + - | / \ characters for diagrams
+- Use clear mathematical notation (², ÷, ×, ±)
 - Be encouraging and friendly
 
 FORMAT FOR MATH CONCEPTS:

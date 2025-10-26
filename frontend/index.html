@@ -150,7 +150,7 @@
                 messageDiv.innerHTML = `
                     <div class="bg-white rounded-lg p-3 max-w-xs shadow-md">
                         <div class="text-sm text-gray-600 mb-1">Bot</div>
-                        <div class="text-gray-800">${sanitizedText}</div>
+                        <div class="text-gray-800 whitespace-pre-wrap font-mono">${sanitizedText}</div>
                     </div>
                 `;
             } else if (sender === 'bot-error') {
