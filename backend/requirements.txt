@@ -15,4 +15,5 @@ prometheus-client
 pytest
 pytest-asyncio
 httpx
-pinecone
+pinecone-client==3.0.0
+google-generativeai
